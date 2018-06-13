@@ -1,8 +1,7 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
-
-import javax.management.RuntimeErrorException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -64,6 +63,6 @@ public class DiceJobSearch {
 		}
 		
 		driver.close();
-		
+		System.out.println("TEST COMPLETED - " + LocalDateTime.now());
 	}
 }
