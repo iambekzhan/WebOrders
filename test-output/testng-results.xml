@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4740" started-at="2018-07-11T06:52:05Z" finished-at="2018-07-11T06:52:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4740" started-at="2018-07-11T06:52:05Z" finished-at="2018-07-11T06:52:10Z">
+      <class name="pomdesign.WebOrderTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:pomdesign.WebOrderTests@6a41eaa2]" name="setup" is-config="true" duration-ms="1920" started-at="2018-07-11T06:52:05Z" finished-at="2018-07-11T06:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setUpApplication()[pri:0, instance:pomdesign.WebOrderTests@6a41eaa2]" name="setUpApplication" is-config="true" duration-ms="309" started-at="2018-07-11T06:52:07Z" finished-at="2018-07-11T06:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApplication -->
+        <test-method status="PASS" signature="labelsVerification()[pri:1, instance:pomdesign.WebOrderTests@6a41eaa2]" name="labelsVerification" duration-ms="948" started-at="2018-07-11T06:52:07Z" description="Verify labels and tab links are displayed" finished-at="2018-07-11T06:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- labelsVerification -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:pomdesign.WebOrderTests@6a41eaa2]" name="logout" is-config="true" duration-ms="332" started-at="2018-07-11T06:52:08Z" finished-at="2018-07-11T06:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="setUpApplication()[pri:0, instance:pomdesign.WebOrderTests@6a41eaa2]" name="setUpApplication" is-config="true" duration-ms="86" started-at="2018-07-11T06:52:09Z" finished-at="2018-07-11T06:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpApplication -->
+        <test-method status="PASS" signature="availableProductsTest()[pri:2, instance:pomdesign.WebOrderTests@6a41eaa2]" name="availableProductsTest" duration-ms="749" started-at="2018-07-11T06:52:09Z" description="Verify default Products and Prices" finished-at="2018-07-11T06:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- availableProductsTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:pomdesign.WebOrderTests@6a41eaa2]" name="logout" is-config="true" duration-ms="290" started-at="2018-07-11T06:52:09Z" finished-at="2018-07-11T06:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pomdesign.WebOrderTests@6a41eaa2]" name="tearDown" is-config="true" duration-ms="88" started-at="2018-07-11T06:52:10Z" finished-at="2018-07-11T06:52:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pomdesign.WebOrderTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
